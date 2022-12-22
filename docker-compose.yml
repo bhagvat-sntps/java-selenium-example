@@ -67,7 +67,7 @@ services:
     networks:
       testsnw: {}
     depends_on:
-      - selenium_hub
+      - selenium-hub
     build: ./
     volumes:
       - ./target:/workdir/target
